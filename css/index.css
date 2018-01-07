@@ -201,6 +201,7 @@
 }
 .banner-box li:nth-child(6){
     background: url(../images/banner6.jpg);
+    background-position: -0px -40px;
 }
 @keyframes rotate {
     0%{
