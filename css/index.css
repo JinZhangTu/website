@@ -4,6 +4,9 @@
     list-style: none;
     font-family: "微软雅黑";
 }
+.mag-10px{
+    margin-top: 10px;
+}
 /*头部ctrl+/*/
 .top-wrapper{
     width: 100%;
@@ -249,8 +252,9 @@
     background: url(../images/title1.png);
 }
 .content-list{
+
     width: 1000px;
-    height: 889px;
+    height: auto;
     margin-top: 77px;
     display: flex;
     flex-wrap: wrap;
@@ -260,6 +264,21 @@
 .content-item{
     width: 321px;
     height: 431px;
+}
+.content-item:nth-child(1){
+    width: 321px;
+    height: 431px;
+    margin-bottom: 20px;
+}
+.content-item:nth-child(2){
+    width: 321px;
+    height: 431px;
+    margin-bottom: 20px;
+}
+.content-item:nth-child(3){
+    width: 321px;
+    height: 431px;
+    margin-bottom: 20px;
 }
 .content-thumb{
     width: 321px;
